@@ -1,5 +1,5 @@
 {
-  "name": "react-login-app",
+  "name": "frontend",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -8,6 +8,7 @@
     "react-router-dom": "^6.0.0",
     "react-scripts": "5.0.1"
   },
+  "proxy": "http://backend:8000",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

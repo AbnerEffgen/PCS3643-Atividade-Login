@@ -13,7 +13,7 @@ const RegistrationPage = () => {
         setSuccess(false);
 
         try {
-            const response = await fetch('/api/auth/register', {
+            const response = await fetch('/users/', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
